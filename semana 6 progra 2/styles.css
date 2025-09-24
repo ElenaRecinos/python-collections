@@ -1,0 +1,66 @@
+body{
+        font-family:Verdana, Geneva, Tahoma, sans-serif ;
+        background: linear-gradient(to right #48cae4, #0077b6) ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+
+}
+.container{
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+    animation: fadeIn 0.8s ease;
+
+} 
+
+h1{
+    columns: #333;
+    margin-bottom: 20px;
+
+}
+
+.form label{
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    text-align: left;
+}
+
+.form input{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+
+}
+
+button{
+    margin-top: 20px ;
+    padding: 10px ;
+    background: #48cae4;
+    width: 100% ;
+    border:none ;
+    border-radius: 9px ;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    background: #d8f8e1;
+}
+.resultado{
+    margin-top: 20px;
+    padding: 15px;
+    background: white;
+    border-radius: ;
+}
